@@ -1,12 +1,12 @@
-import { Suspense, lazy, useEffect, useState } from "react";
-import { Route, Routes } from "react-router-dom";
-import Loader from "./common/loader";
-import { Toaster } from "react-hot-toast";
-import LogIn from "./pages/auth/LogIn";
-import routes from "./routes";
-import Dashboard from "./pages/Dashboard";
+import { Suspense, lazy, useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Loader from './common/loader';
+import { Toaster } from 'react-hot-toast';
+import LogIn from './pages/auth/LogIn';
+import routes from './routes';
+import Dashboard from './pages/Dashboard';
 
-const DefaultLayout = lazy(() => import("./layout/DefaultLayout"));
+const DefaultLayout = lazy(() => import('./layout/DefaultLayout'));
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -19,12 +19,12 @@ function App() {
   ) : (
     <>
       <Toaster
-        position="top-right"
+        position='top-right'
         reverseOrder={false}
-        containerClassName="overflow-auto"
+        containerClassName='overflow-auto'
       />
       <Routes>
-        <Route path="/login" element={<LogIn />} />
+        <Route path='/login' element={<LogIn />} />
         <Route element={<DefaultLayout />}>
           <Route index element={<Dashboard />} />
           {routes.map((routes, index) => {

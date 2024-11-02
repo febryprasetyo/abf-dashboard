@@ -10,6 +10,7 @@ export default withMT({
       satoshi: ["Satoshi", "sans-serif"],
     },
     colors: {
+      'blue-bar': '#1F2937',
       current: "currentColor",
       transparent: "transparent",
       white: "#FFFFFF",

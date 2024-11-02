@@ -26,7 +26,11 @@ export default function ListStation() {
         <Typography className='text-xl font-semibold'>Stasiun</Typography>
         <div>
           {data?.data?.values.map((station: TableStationType) => (
-            <Link key={station.id} to={`/monitoring/${station.id_mesin}`}>
+            <Link
+              target='_blank'
+              rel='noopener noreferrer'
+              key={station.id}
+              to={`/monitoring/${station.id_mesin}`}>
               <div className='w-full border rounded p-2 flex gap-x-3 mt-4 cursor-pointer'>
                 <img src='/iott.jpg' className='w-36 rounded-sm' alt='auu' />
                 <div className='flex-1'>
