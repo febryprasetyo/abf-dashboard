@@ -52,7 +52,11 @@ export default function DashboardSpeedometer() {
           ? 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4'
           : 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 '
       } gap-2.5 w-full`}>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Suhu</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -64,7 +68,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>pH</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -76,7 +84,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>DO</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -88,7 +100,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>BOD</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -100,7 +116,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>COD</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -112,7 +132,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>TDS</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -124,7 +148,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Kedalaman</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -136,7 +164,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Amonia</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -148,7 +180,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Nitrit</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -160,7 +196,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Nitrat</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -172,7 +212,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>ORP</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -184,7 +228,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>TSS</h2>
         <hr className='mb-4.5 text-blue-gray-200' />
@@ -196,7 +244,11 @@ export default function DashboardSpeedometer() {
           />
         </div>
       </Card>
-      <Card className='p-2'>
+      <Card
+        className='p-2'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         <p className='text-sm text-strokedark'>Parameter</p>
         <h2 className='text-lg font-bold mb-2'>Turbidity</h2>
         <hr className='mb-4.5 text-blue-gray-200' />

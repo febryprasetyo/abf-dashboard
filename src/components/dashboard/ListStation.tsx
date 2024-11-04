@@ -22,8 +22,18 @@ export default function ListStation() {
 
   return (
     <div>
-      <Card className='p-8'>
-        <Typography className='text-xl font-semibold'>Stasiun</Typography>
+      <Card
+        className='p-8'
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
+        <Typography
+          className='text-xl font-semibold'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}>
+          Stasiun
+        </Typography>
         <div>
           {data?.data?.values.map((station: TableStationType) => (
             <Link
